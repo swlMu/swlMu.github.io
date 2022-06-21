@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎MAS站点!</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="./js/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="./js/data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/indexScrollTo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/localtion.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="js/homeShop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/addShop.js" type="text/javascript" charset="utf-8"></script>
+	</head> 
+	<body>
+		<!-- 页首 -->
+				<div id="yeshou">
+					<!-- Logo -->
+					<img src="img/logo_03.jpg" id="logo">
+						
+					<form action="" method="" id="forms">
+						<input type="text" name="" id="souSuoKuang" placeholder="输入关键字进行全站搜索." />
+						<input type="submit" value="Action" id="btns"/>
+						<div id="aDiv">
+						<a href="javascript:void(0)"class="aDiv_a xp">新品推荐</a>
+						<a href="javascript:void(0)"class="aDiv_a rm">热卖护肤</a>
+						<a href="javascript:void(0)"class="aDiv_a da">DIAO专款</a>
+						<a href="javascript:void(0)"class="aDiv_a md">专柜香水</a>
+						<a href="javascript:void(0)" class="aDiv_a person">会员中心</a>
+						</div>
+					</form>
+					<div id="logins">
+						<a id="logins_a" href="Login.html">登录</a>
+						<a id="logins_a" href="javascript:void(0)">注册</a>
+					</div>
+				</div>
+		<!-- banner -->	
+			 <div id="banner">
+			 	<img src="img/berner.jpg" id="banner_img" class="banner_news" data="news">
+				<img src="img/banner-hf.jpg" id="banner_img" class="banner_hf" data="hf">
+				<img src="img/banner-diao.jpg" id="banner_img" class="banner_diao" data="diao">
+				<img src="img/banner-xs.jpg" id="banner_img" class="banner_xs"  data="xs">
+			 </div>
+			
+			 
+			 <div id="text">
+			 	<h1>Welcome to MAS Official Mall !</h1>
+				<h2>Go down, please choose your favorite product to place an order!</h2>
+				<h3>欢迎光临MAS站点!请往下走开始选择你心仪的产品下单吧!</h3>
+			 </div>
+			 <!-- <div id="fenLei"> -->
+			 	<!-- <a id="fenLei" href="javascript:void(0)">分&nbsp;&nbsp;类</a> -->
+			 <!-- </div> -->
+			 
+		
+			<div id="Chanpin">	
+			   <div id="cp" data=1>
+					<img  id="img" src="img/sp1.png" >
+					<p id="title">LIPS:奇幻花园限定唇膏</p>
+					<p id="price">$198</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>
+			   
+			   <div id="cp"data=1>
+					<img id="img" src="img/sp2.png" >
+					<p id="title">K系列:东方红限定版唇红</p>
+					<p id="price">$204</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+					
+			   <div id="cp"data=1>
+					<img src="img/sp3.png" >
+					<p id="title">LIPS:Lisa专款全球限量唇膏</p>
+					<p id="price">$331</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+					
+			   <div id="cp"data=1> 
+					<img src="img/sp4.png" >
+					<p id="title">BOTANIC:AWM授权特卖款口红</p>
+					<p id="price">$118</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+			   
+			   <div id="cp"data=1>
+					<img src="img/sp5.png" >
+					<p id="title">L系列:低价清仓超值cos man 系列口红</p>
+					<p id="price">$69</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+			   
+			   <div id="cp"data=1>
+					<img src="img/sp6.png" >
+					<p id="title">L系列:Diao授权M4A1凤凰口红</p>
+					<p id="price">$228</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+			   
+			   <div id="cp"data=1>
+					<img src="img/sp7.png" >
+					<p id="title">K系列:奇妙公主AKMI口红</p>
+					<p id="price">$499</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div> 
+				
+			   <div id="cp"data=1>
+					<img src="img/sp8.png" >
+					<p id="title">P系列:满季春限定口红</p>
+					<p id="price">$88</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div> 
+				
+			   <div id="cp"data=1>
+					<img src="img/sp9.png" >
+					<p id="title">LIPSPA:ABS合作系列口红</p>
+					<p id="price">$388</p>
+					<a href="javascript:void(0)">加入购物车</a>
+			   </div>  
+				<div id="cp"data=1>
+					<img src="img/cp10.png" >
+					<p id="title">紫陌红尘 倾色丝润唇膏</p>
+					<p id="price">$128</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				<div id="cp"data=1>
+					<img src="img/cp11.png" >
+					<p id="title">明橙阿加莎 倾色丝润唇膏</p>
+					<p id="price">$188</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				<div id="cp"data=1>
+					<img src="img/cp12.png" >
+					<p id="title">鸽血红 倾色丝润唇膏</p>
+					<p id="price">$88</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				<div id="cp"data=1>
+					<img src="img/cp13.png" >
+					<p id="title">唇膏和香水美妆礼盒</p>
+					<p id="price">$988</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				<div id="cp"data=1>
+					<img src="img/cp14.png" >
+					<p id="title">倾色柔纱润唇膏4号色 多情佩内洛普</p>
+					<p id="price">$328</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				<div id="cp"data=1>
+					<img src="img/cp15.png" >
+					<p id="title">朱唇战袍 倾色绒雾唇膏</p>
+					<p id="price">$246</p>
+					<a href="javascript:void(0)">加入购物车</a>
+				</div>   
+				 <div id="cp"data=1>
+				 	<img src="img/cp16.png" >
+				 	<p id="title">范妮莎玫紫 古驰倾色云雾唇釉</p>
+				 	<p id="price">$200</p>
+				 	<a href="javascript:void(0)">加入购物车</a>
+				 </div>
+				 <div id="cp"data=1>
+				 	<img src="img/cp17.png" >
+				 	<p id="title">莉琪日落橘 倾色云雾唇釉</p>
+				 	<p id="price">$218</p>
+				 	<a href="javascript:void(0)">加入购物车</a>
+				 </div>
+				 <div id="cp"data=1>
+				 	<img src="img/cp18.png" >
+				 	<p id="title">乔迪野紫 古驰倾色琉光唇膏</p>
+				 	<p id="price">$177</p>
+				 	<a href="javascript:void(0)">加入购物车</a>
+				 </div>
+			</div>
+			
+		</div>	
+			 
+			 <div id="right">
+			 	<a href="javascript:void(0)" id="gwc">购物车</a>
+				<a href="javascript:void(0)" id="a_fanhui">回顶部^</a>
+				<a href="javascript:void(0)" id="xyy">下一页</a>
+			 </div>
+			 
+			 <div id="alert">
+			 	<p>来至站点友情提示: 请先登陆 :)</p>
+				<button type="button"><a href="Login.html" style="color: black;">前往登录</a></button>
+				<button type="button">取消</button>
+			 </div>
+			 
+			 <img src="img/Contact.jpg"  id="contact">
+			 <!-- 页尾 -->
+			 <div id="yeWei">
+			 	 <p id="Yewei_a"><a href="javascript:void(0)">Beihai vocational college </a><br>
+			 	 			<a href="javascript:void(0)" id="Yewei_d">服务热线：408-952-766</a>
+				</p>			
+			 	 			<div id="Yewei_b">
+			 	 			<a href="javascript:void(0)">商务合作</a>
+			 	 			<a href="javascript:void(0)">品牌故事</a>
+			 	 			<a href="javascript:void(0)">退换政策</a>
+			 	 			<a href="javascript:void(0)">我的收藏</a>
+			 	 			<a href="javascript:void(0)">订单状态</a>
+			 	 			</div>
+			 	 			
+			 	 			<div id="Yewei_c">
+			 	 			<a href="javascript:void(0)">联系我们</a>
+			 	 			<a href="javascript:void(0)">常见问题</a>
+			 	 			<a href="javascript:void(0)">订单情况</a>
+			 	 			<a href="javascript:void(0)">运输信息</a>
+			 	 			<a href="javascript:void(0)">我的账户</a>
+			 	 			</div>
+			 </div>
+			
+			
+			
+			 <!--  <script>
+				   var v = new Vue({
+				      el:"#Chanpin",
+				   		 data:{
+				   			 shops:[],
+				   			 shop:{
+				   				 title:"",
+				   				 price:"",
+				   				 imgSrc:"",
+								 time:""
+				   			 },
+				   			 token:""
+				   		 },
+				      created(){
+				   	   this.findAll();
+				   	   
+				      },
+				      methods:{
+				   	   //渲染主页产品
+				   	   findAll(){
+				   		   //请求后台接口  把接受到的数据渲染展示在页面中http://localhost:8080/user/findAll
+				   		   axios.get("http://192.168.31.71:8080/chunzhuang").then((res)=>{
+				   					 //判断是否成功
+				   					 if(res.data.code==200){
+				   						 //如果成功,把数据赋值给this.shops
+				   						 this.shops=res.data.data
+				   						 console.log(this.shops)
+				   					 }
+				   		   })		   
+				   	   },
+					   //加入购物车
+				   	   addShop(){
+				   		   this.shop  = localStorage.getItem("shop")
+						   console.log(this.shop)
+						   // axios.post("http://192.168.31.71:8080/addShop",this.shop,headers: {'Content-Type':'application/json;charset=UTF-8'}).then((res)=>{
+									//  //判断是否成功
+									//  if(res.data.code==200){
+										
+									//  }
+						   // })	
+								  axios({
+								       method: 'post',
+								       url: 'http://192.168.31.71:8080/addShop',
+								       data: this.shop,
+								       // headers: {
+								       //   'Content-Type': 'application/json;charset=UTF-8'
+								       // }
+								     }).then(res=>{
+								         console.log(res);
+								     }).catch(err=>{
+								         console.log(err);
+								     })
+
+				   	   }
+				   	   
+				   	   
+				   	   
+				   	   
+				   	   
+				   	   
+				   	  
+				   	 }
+				   });
+				   
+			   </script> -->
+			
+	</body>
+</html>
