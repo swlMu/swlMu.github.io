@@ -1,0 +1,254 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: white;}	
+body{
+			/* background-color: #CCCCCC; */
+		}
+#yeshou{
+		width: 100%;
+		height: 120px;
+		background-color:black;
+		position: fixed;
+		margin-top: 0px;
+		z-index: 1000 ;
+}
+#logo{
+	float: left;
+	  width:3%;
+	  height: 26%;
+	  margin-left: 3%;
+	  margin-top: 2%;
+}
+#forms{
+	width: 30%;
+	height: 60px;
+	margin:auto;
+	margin-top:2%;
+}
+#souSuoKuang{
+	width: 80%;
+	height: 30px;
+}
+#btns{
+	width: 19%;
+	height: 34px;
+	margin-left: -2%;
+}
+#aDiv{
+	width: 100%;
+	height: 35%;
+	margin-top: 2%;
+}
+#aDiv .aDiv_a {
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	/* margin-left: 3.3%; */
+	font-size: 14px;
+}
+
+#logins{
+	width: 20%;
+	height: 30px;
+	float: right;
+	/* margin-top: -0%; */
+	font-size: 16px;
+}
+#logins a{
+	float: left;
+	/* background-color: #5F9EA0; */
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	font-size: ;
+	/* margin-left: 20%; */
+}
+#banner{
+	width: 100%;
+	height: 340px;
+	position: relative;
+	top: 120px;
+	background-color: #5F9EA0;
+}
+#banner img{
+	/* margin-top: 120px;               */
+	background-size: 100% 340px; 	
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#text{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+
+#fenLei{
+	width: 7%;
+	height: 50px;
+	border-radius: 22px;
+	float: right;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 10%;
+	background-color: #000000;
+}
+#fenLei a{
+	width: 10%;
+	height: 50px;
+	float: right;
+	margin-right: 12%;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+#Chanpin{
+	border-top: 4px solid black;
+	width: 80%;
+	margin: auto;
+	margin-top: 125px;
+	margin-bottom: 56px;
+}
+
+#cp{
+	width: 32%;
+	height: 500px;
+	display: inline-block;
+	margin-left: 0.8%;
+	margin-bottom: 100px;
+}
+#cp img{
+	width: 100%;
+	height: 350px;
+}
+
+#cp #title{
+	text-align: center;
+	font-size: 20px;
+}
+#cp #price{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+}
+#cp a{
+	float: right;
+	width: 50%;
+	height: 7%;
+	background-color: #000000;
+	text-align: center;
+	line-height: 190%;
+	border-radius: 20px;
+	margin-right: 25%;
+	margin-top: 10%;
+	display: none;
+}
+
+
+#yeWei{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+
+ #Yewei_a{
+	   float: left;
+	   margin-top: 1%;
+	   color: white;
+	   margin-left: 10%;
+   }
+#Yewei_b{
+   float: right;
+   width: 50%;
+   height: 24%;
+   margin-right: 20%;
+   margin-top: 1%;
+   
+}
+#Yewei_b  a{
+	
+	margin-left:8%;
+}
+#Yewei_c{
+	float: right;
+	width: 50%;
+	height: 24%;
+	margin-right: 20%;
+	margin-top: 1%;
+} 
+#Yewei_c  a{
+	margin-left:8%;
+}
+#Yewei_d{
+ /* font-size: 17px;
+  position: relative;
+  top: 50%;
+  left: -12.2%; */
+}
+
+
+#right{
+	height: 140px;
+	width: 5%;
+	 position: absolute;
+	 top: 650px;
+	 right: 10px;
+}
+#right a{
+	width: 100%;
+	height: 70px;
+	float: right;
+	background-color:black;
+	text-align: center;
+	line-height: 70px;
+}
+#alert{
+	width: 25%;
+	height: 100px;
+	background-color: #ccc;
+	position: absolute;
+	top:300px;
+	left: 38%;
+	display: none;
+	position: fixed;
+	
+}
+#alert p{
+	width: 72%;
+	height: 27%;
+	margin: auto;
+	margin-top: 4%;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#alert button{
+	width: 20%;
+	height: 30%;
+	font-weight: bolder;
+	float: right;
+	margin-right: 5%;
+	margin-top: 3%;
+	border-radius: 12px;
+	background-color: white;
+}
+
+#contact{
+	width: 10%;
+	position: absolute;
+	top: 150px;
+	right: 2%;
+	position: fixed;
+	display: none;
+}
+
+
+
+
+
+
+
+
+    
